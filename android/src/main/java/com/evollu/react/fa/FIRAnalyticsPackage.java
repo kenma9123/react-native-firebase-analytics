@@ -24,7 +24,7 @@ public class FIRAnalyticsPackage implements ReactPackage {
         return modules;
     }
 
-    @Override
+    // deprecated on RN 0.47 and up
     public List<Class<? extends JavaScriptModule>> createJSModules() {
         return Collections.emptyList();
     }
